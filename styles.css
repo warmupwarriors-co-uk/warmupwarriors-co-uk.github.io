@@ -1,0 +1,182 @@
+ @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Oswald|Poiret+One');
+
+ body {
+     background-color: #FF9000;
+     margin-left: center;
+     margin-right: center;
+     text-align: center;
+ }
+
+ .body-homepage {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     text-align: center;
+     animation: fadeIn ease 3s;
+     -webkit-animation: fadeIn ease 3s;
+     -moz-animation: fadeIn ease 3s;
+     -o-animation: fadeIn ease 3s;
+     -ms-animation: fadeIn ease 3s;
+ }
+
+ div {
+     border: 0px hidden;
+     padding: 0px;
+     width: 700px;
+     position: relative;
+     margin: auto;
+     margin-top: 5px;
+ }
+
+ video {
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     border-top: 2px solid white;
+     border-bottom: 2px solid white;
+
+ }
+
+ table,
+ th,
+ td {
+     border: 0px hidden white;
+     border-spacing: 0px;
+     position: relative;
+     margin: auto;
+     margin-top: 5px;
+     width: 700px;
+ }
+
+ a:link,
+ a:visited {
+     font-family: 'Josefin Sans', sans-serif;
+     width: 100px;
+     padding: 14px 25px;
+     background-color: #FF9000;
+     color: black;
+     font-size: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-bottom: 2px solid black;
+     margin-top: 5%;
+
+ }
+
+ /*.a-selected:link,
+ .a-selected:visited {
+     font-family: 'Josefin Sans', sans-serif;
+     width: 100px;
+     padding: 14px 25px;
+     background-color: black;
+     color: white;
+     font-size: 20px text-align: center;
+     text-decoration: none;
+     display: inline-block; *
+
+ } */
+
+ a:hover,
+ a:active {
+     background-color: black;
+     color: white;
+     margin-top: 5%;
+ }
+
+ h1 {
+     font-family: 'Oswald', sans-serif;
+     color: black;
+     font-size: 72px;
+     font-style: italic;
+     margin: 0;
+     text-shadow: 1px 1px #FFFFFF;
+ }
+
+ h2 {
+     font-family: 'Poiret One', cursive;
+     color: black;
+     font-size: 20px;
+     text-shadow: 1px 1px #FFFFFF;
+     margin-bottom: 5%;
+
+ }
+
+ p {
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+     font-size: 20px;
+     margin-bottom: 0px;
+     background-color: black;
+ }
+
+
+ li {
+     font-family: 'Open Sans', sans-serif;
+     color: black;
+     font-size: 20px
+ }
+
+
+ img {
+     width: 64px;
+     height: 64px;
+     margin: 0;
+     top: 0;
+     left: 0;
+ }
+
+ /* fade in settings */
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-moz-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-webkit-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-o-keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @-ms-keyframes fadeIn {
+     0% {
+         opacity: 0;
+         <h3>
+     }
+
+     100% {
+         opacity: 1;
+     }
